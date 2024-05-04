@@ -6,6 +6,7 @@ public class thread1 {
 
     public static void main(String[] args) {
         System.out.println("cal task start");
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         System.out.println("please enter the 1st num");
         int num1 = sc.nextInt();
