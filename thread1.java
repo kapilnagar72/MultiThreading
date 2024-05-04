@@ -17,7 +17,7 @@ public class thread1 {
         int cal = num1 + num2;
         System.out.println(cal);
         
-        System.out.println("************************************");
+        System.out.println("*************************************");
 
         System.out.println("printing task start");
         for (int i = 0; i < 4; i++) {
